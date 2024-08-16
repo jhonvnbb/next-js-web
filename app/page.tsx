@@ -1,5 +1,6 @@
 import BannerSection from "./components/Banner";
 import FooterSection from "./components/Footer";
+import JadwalSection from "./components/Jadwal";
 import NavigationBar from "./components/Navbar";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <NavigationBar />
       <BannerSection />
+      <JadwalSection />
       <FooterSection />
     </>
   );

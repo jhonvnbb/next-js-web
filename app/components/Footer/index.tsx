@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaInstagram,
@@ -10,7 +11,7 @@ import {
 const FooterSection = () => {
   return (
     <footer className="bg-gray-800 p-6 text-white">
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8">
         <div className="flex flex-col items-center lg:items-start">
           <img src="/himakom.png" alt="Logo 1" className="h-20 mb-4" />
           <div className="text-center lg:text-left">
@@ -18,21 +19,21 @@ const FooterSection = () => {
               Himpunan Mahasiswa Jurusan Ilmu Komputer
             </h4>
             <div className="flex justify-center lg:justify-start space-x-4 mt-3">
-              <a href="https://www.instagram.com" className="text-2xl">
+              <Link href="https://www.instagram.com" className="text-2xl">
                 <FaInstagram />
-              </a>
-              <a href="https://www.tiktok.com" className="text-2xl">
+              </Link>
+              <Link href="https://www.tiktok.com" className="text-2xl">
                 <FaTiktok />
-              </a>
-              <a href="https://www.twitter.com" className="text-2xl">
+              </Link>
+              <Link href="https://www.twitter.com" className="text-2xl">
                 <FaTwitter />
-              </a>
-              <a href="https://www.example.com" className="text-2xl">
+              </Link>
+              <Link href="https://www.example.com" className="text-2xl">
                 <FaGlobe />
-              </a>
-              <a href="https://www.youtube.com" className="text-2xl">
+              </Link>
+              <Link href="https://www.youtube.com" className="text-2xl">
                 <FaYoutube />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -12,8 +12,8 @@ const BannerSection = () => {
             className="max-w-full h-auto"
           />
         </div>
-        <div className="w-full md:w-1/2 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+        <div className="w-full md:w-1/2 text-center mt-3">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
             Dare to Dream, Strive for Greatness
           </h1>
           <div className="mt-6">
