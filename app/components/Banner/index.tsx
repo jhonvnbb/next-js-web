@@ -18,7 +18,7 @@ const BannerSection = () => {
           </h1>
           <div className="mt-6">
             <Link
-              href=""
+              href="/#about"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 border rounded inline-block"
             >
               Get Started
