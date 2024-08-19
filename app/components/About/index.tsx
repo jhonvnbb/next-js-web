@@ -4,8 +4,8 @@ const AboutSection = () => {
   return (
     <section className='bg-[#eee] p-6' id='about'>
         <div className='container container mx-auto flex flex-col justify-center items-center px-4'>
-            <div className='py-7'>
-                <h1 className='text-4xl text-center font-extrabold text-gray-800 text-shadow' data-shadow="About Us">
+            <div className='py-6'>
+                <h1 className='text-4xl text-center font-extrabold text-gray-800'>
                     About Us
                 </h1>
             </div>

@@ -2,6 +2,7 @@ import AboutSection from "./components/About";
 import BannerSection from "./components/Banner";
 import FooterSection from "./components/Footer";
 import JadwalSection from "./components/Jadwal";
+import LombaSection from "./components/Lomba";
 import NavigationBar from "./components/Navbar";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <BannerSection />
       <JadwalSection />
       <AboutSection />
+      <LombaSection />
       <FooterSection />
     </>
   );
