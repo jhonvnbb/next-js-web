@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+import { 
+    FaInstagram,
+    FaBaseballBall,
+    FaStopwatch,
+    FaLaptop,
+    FaGamepad
+} from "react-icons/fa";
 
 const LombaSection = () => {
   return (
@@ -14,9 +20,9 @@ const LombaSection = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-7 w-full">
-          <div className="border-y-2 p-10 border-gray-700">
+          <div className="border-y-2 px-5 py-10 border-gray-700">
             <i className="text-5xl text-white mb-3">
-              <FaInstagram />
+                <FaStopwatch />
             </i>
             <h5 className="mt-7 mb-2 text-2xl font-bold text-white">LCT</h5>
             <p className="mb-3 text-xl text-gray-500 dark:text-gray-400">
@@ -29,9 +35,9 @@ const LombaSection = () => {
               Read More !
             </Link>
           </div>
-          <div className="border-y-2 p-10 border-gray-700">
+          <div className="border-y-2 px-5 py-10 border-gray-700">
             <i className="text-5xl text-white mb-3">
-              <FaInstagram />
+                <FaLaptop />
             </i>
             <h5 className="mt-7 mb-2 text-2xl font-bold text-white">CPC</h5>
             <p className="mb-3 text-xl text-gray-500 dark:text-gray-400">
@@ -44,9 +50,9 @@ const LombaSection = () => {
               Read More !
             </Link>
           </div>
-          <div className="border-y-2 p-10 border-gray-700">
+          <div className="border-y-2 px-5 py-10 border-gray-700">
             <i className="text-5xl text-white mb-3">
-              <FaInstagram />
+                <FaBaseballBall />
             </i>
             <h5 className="mt-7 mb-2 text-2xl font-bold text-white">FUTSAL</h5>
             <p className="mb-3 text-xl text-gray-500 dark:text-gray-400">
@@ -59,9 +65,9 @@ const LombaSection = () => {
               Read More !
             </Link>
           </div>
-          <div className="border-y-2 p-10 border-gray-700">
+          <div className="border-y-2 px-5 py-10 border-gray-700">
             <i className="text-5xl text-white mb-3">
-              <FaInstagram />
+                <FaGamepad />
             </i>
             <h5 className="mt-7 mb-2 text-2xl font-bold text-white">Mobile Legend</h5>
             <p className="mb-3 text-xl text-gray-500 dark:text-gray-400">
