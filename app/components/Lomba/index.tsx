@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { 
-    FaInstagram,
     FaBaseballBall,
     FaStopwatch,
     FaLaptop,
@@ -29,7 +28,7 @@ const LombaSection = () => {
               Lomba Cepat Tepat ini dapat diikuti oleh jenjang SMA sederajat
             </p>
             <Link
-              href="#"
+              href="/Views/LCT/"
               className="inline-flex font-medium items-center text-blue-600 hover:underline"
             >
               Read More !
@@ -44,7 +43,7 @@ const LombaSection = () => {
               Competitive Programming Competition ini dapat diikuti oleh umum
             </p>
             <Link
-              href="#"
+              href="/Views/CPC/"
               className="inline-flex font-medium items-center text-blue-600 hover:underline"
             >
               Read More !
@@ -59,7 +58,7 @@ const LombaSection = () => {
               Cabang lomba futsal ini dapat diikuti oleh jenjang SMA sederajat
             </p>
             <Link
-              href="#"
+              href="/Views/Futsal/"
               className="inline-flex font-medium items-center text-blue-600 hover:underline"
             >
               Read More !
@@ -74,7 +73,7 @@ const LombaSection = () => {
               Cabang lomba mobile legend ini dapat diikuti oleh umum
             </p>
             <Link
-              href="#"
+              href="/Views/MobileLegend/"
               className="inline-flex font-medium items-center text-blue-600 hover:underline"
             >
               Read More !

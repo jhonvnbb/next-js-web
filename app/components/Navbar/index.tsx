@@ -31,7 +31,7 @@ const NavigationBar = () => {
         </div>
         <div className="hidden lg:flex lg:items-center lg:space-x-4">
           <Link
-            href="/about"
+            href="/#about"
             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             About
@@ -48,25 +48,25 @@ const NavigationBar = () => {
               <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                 <div className="py-1">
                   <Link
-                    href="/lomba1"
+                    href="/Views/LCT/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     LCT
                   </Link>
                   <Link
-                    href="/lomba2"
+                    href="/Views/CPC/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     CPC
                   </Link>
                   <Link
-                    href="/lomba3"
+                    href="/Views/Futsal/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Futsal
                   </Link>
                   <Link
-                    href="/lomba4"
+                    href="/Views/MobileLegend/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Mobile Legend
@@ -110,28 +110,28 @@ const NavigationBar = () => {
               <div className="mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                 <div className="py-1">
                   <Link
-                    href="/lomba1"
+                    href="/Views/LCT/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={toggleMenu}
                   >
                     LCT
                   </Link>
                   <Link
-                    href="/lomba2"
+                    href="/Views/CPC/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={toggleMenu}
                   >
                     CPC
                   </Link>
                   <Link
-                    href="/lomba3"
+                    href="/Views/Futsal/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={toggleMenu}
                   >
                     Futsal
                   </Link>
                   <Link
-                    href="/lomba4"
+                    href="/Views/MobileLegend/"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={toggleMenu}
                   >

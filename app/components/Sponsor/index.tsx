@@ -23,11 +23,6 @@ const SponsorSection = () => {
     '/himakom.png',
     '/himakom.png',
     '/himakom.png',
-    '/himakom.png',
-    '/himakom.png',
-    '/himakom.png',
-    '/himakom.png',
-    '/himakom.png',
   ];
 
   return (
@@ -45,11 +40,10 @@ const SponsorSection = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            {/* Menggandakan daftar sponsor untuk looping yang mulus */}
             {sponsors.concat(sponsors).map((sponsor, index) => (
               <img
                 key={index}
-                src={sponsor}
+                src={sponsor} 
                 alt={`Sponsor ${index + 1}`}
                 className="h-20 w-auto"
               />
